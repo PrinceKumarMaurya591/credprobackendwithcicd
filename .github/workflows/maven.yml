@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set Working Directory
-      run: cd CredProReport
     - name: Debug Info
       run: |
         pwd
