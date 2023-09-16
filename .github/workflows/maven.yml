@@ -24,10 +24,11 @@ jobs:
     - name: Print Current Directory
       run: pwd
 
-    - name: Change to Project Directory
-      run: cd CredproReport
+    - name: Navigate to Project Directory
+      run: cd CredProReport
     - name: List Directory Contents
-      run: ls -R
+      run: ls -R 
+
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
