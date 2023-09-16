@@ -19,11 +19,8 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-    - name: Set Working Directory
-      run: cd CredProReport  # Replace with the correct directory if needed
-    - name: List Directory Contents
-      run: ls -R
+    - name: Navigate to Project Directory
+      run: cd CredProReport
     - name: Build with Maven
       run: mvn clean install
 
