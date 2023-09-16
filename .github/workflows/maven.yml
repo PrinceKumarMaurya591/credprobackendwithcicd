@@ -21,6 +21,9 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean install
+    - name: Print Current Directory
+      run: pwd
+
     - name: Change to Project Directory
       run: cd CredproReport
     - name: List Directory Contents
